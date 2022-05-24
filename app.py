@@ -22,9 +22,6 @@ def message_cleaning(sentence) :
   return Test_punc_removed_join_clean
 
 
-
-
-
 def main() :
     st.title('리뷰 긍정 부정 예측 앱')
 
@@ -38,10 +35,6 @@ def main() :
         run_eda()
     elif choice == menu[2] :
         run_ml()
-
-
-
-
 
 
 if __name__ == '__main__' :
